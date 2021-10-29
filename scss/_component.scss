@@ -1,0 +1,218 @@
+.restructure {
+  padding: 84px 44px 0;
+  height: 100%;
+  background-color: #291c7de0;
+
+  .container {
+    padding: 66px 38px 36px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+
+    h1 {
+      margin-bottom: 13px;
+      font-size: 26px;
+      color: #5f22cb;
+    }
+
+    p {
+      margin-bottom: 32px;
+      font-size: 13px;
+      color: #39255f;
+      opacity: 0.7;
+    }
+
+    button {
+      margin-bottom: 40px;
+      width: 100%;
+      height: 60px;
+      outline: none;
+      border-radius: 5px;
+      border-style: none;
+      background-color: #5f22cb;
+      color: #fff;
+      font-size: 1.125rem;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      color: #f21d11;
+    }
+  }
+}
+
+.success {
+  height: 100%;
+  background: rgb(95, 34, 203);
+
+  img {
+    margin: 40px 40px 0 0;
+    float: right;
+  }
+
+  &__checklist {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    .div1 {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      top: 150px;
+      margin-left: 60px;
+      margin-bottom: 100px;
+      //   border: 2px solid blue;
+      perspective: 100px;
+
+      .lines {
+        position: absolute;
+        top: 20px;
+        z-index: 1000;
+        .line01 {
+          width: 30px;
+          height: 5px;
+          background-color: red;
+        }
+      }
+    }
+    .div2 {
+      border-radius: 13.5px;
+      width: 169px;
+      padding: 50px;
+      position: absolute;
+      left: 18px;
+      //   border: 1px solid black;
+      background-color: #ffffff;
+      background: #ffffff;
+      transform-style: preserve-3d;
+      transform: rotateY(20deg);
+
+      .g-cir {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 35.14px;
+        height: 37.72px;
+        border-radius: 50%;
+        background: #7dfba5;
+
+        img {
+          // border: 2px solid red;
+          position: absolute;
+          top: -27px;
+          left: 8px;
+        }
+      }
+    }
+
+    .div3 {
+      border-radius: 13.5px;
+      width: 167px;
+      height: 10px;
+      padding: 40px;
+      margin-top: 15px;
+      position: absolute;
+      background-color: #ffffff;
+      background: #ffffff;
+      transform-style: preserve-3d;
+      transform: rotateY(10deg);
+
+      .a-cir {
+        // display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 35.14px;
+        height: 37.72px;
+        border-radius: 50%;
+        background: #bac2cb;
+
+        img {
+          // border: 2px solid red;
+          position: absolute;
+          top: -27px;
+          left: 8px;
+        }
+      }
+    }
+
+    .div4,
+    .div5 {
+      position: relative;
+      height: 90px;
+      width: 150px;
+      margin-left: 60px;
+      //   border: 1px solid blue;
+      perspective: none;
+    }
+  }
+
+  &__lines {
+    position: absolute;
+    top: 13px;
+    margin-left: 13px;
+
+    .line1 {
+      height: 6.58px;
+      width: 95px;
+      margin-bottom: 5.5px;
+      border-radius: 90px;
+      background-color: #1b3554;
+      opacity: 0.3;
+    }
+
+    .line2 {
+      width: 69.93px;
+      height: 6.58px;
+      margin-bottom: 11.5px;
+      border-radius: 90px;
+      background-color: #1b3554;
+      opacity: 0.3;
+    }
+
+    .line3 {
+      width: 27.15px;
+      height: 6.58px;
+      border-radius: 90px;
+      background-color: #1b3554;
+      opacity: 0.15;
+    }
+  }
+
+  &__text {
+    margin-top: 53px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    border: 1px solid #ffcb5b;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+
+    a {
+      display: flex;
+      align-self: center;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      text-align: center;
+      color: #ffcb5b;
+      text-decoration: none;
+    }
+  }
+}
