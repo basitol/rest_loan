@@ -97,14 +97,35 @@ body {
 
 .success__checklist .div1 .lines {
   position: absolute;
-  top: 20px;
+  top: 25px;
+  left: 43%;
   z-index: 1000;
 }
 
 .success__checklist .div1 .lines .line01 {
-  width: 30px;
-  height: 5px;
-  background-color: red;
+  height: 6.58px;
+  width: 90px;
+  margin-bottom: 5.5px;
+  border-radius: 90px;
+  background-color: #1b3554;
+  opacity: 0.3;
+}
+
+.success__checklist .div1 .lines .line02 {
+  height: 6.58px;
+  width: 65px;
+  margin-bottom: 5.5px;
+  border-radius: 90px;
+  background-color: #1b3554;
+  opacity: 0.3;
+}
+
+.success__checklist .div1 .lines .line03 {
+  width: 27.15px;
+  height: 6.58px;
+  border-radius: 90px;
+  background-color: #1b3554;
+  opacity: 0.15;
 }
 
 .success__checklist .div2 {
@@ -112,19 +133,19 @@ body {
   width: 169px;
   padding: 50px;
   position: absolute;
-  left: 18px;
+  left: 16px;
   background-color: #ffffff;
   background: #ffffff;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-transform: rotateY(20deg);
-          transform: rotateY(20deg);
+  -webkit-transform: rotateY(15deg);
+          transform: rotateY(15deg);
 }
 
 .success__checklist .div2 .g-cir {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 7px;
   width: 35.14px;
   height: 37.72px;
   border-radius: 50%;
